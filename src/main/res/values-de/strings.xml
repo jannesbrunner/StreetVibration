@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Street Vibration</string>
     <string name="start_metering_button">Starte Messung</string>
+    <string name="eruptionval">Eruption:</string>
 </resources>
