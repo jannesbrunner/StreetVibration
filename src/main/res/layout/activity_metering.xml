@@ -111,17 +111,17 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/trucksTotal"
+            android:id="@+id/carsTotal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_above="@+id/carTrigVal"
+            android:layout_alignStart="@+id/carString"
             android:text="0"
             android:textSize="30sp"
-            android:textStyle="bold"
-            android:layout_above="@+id/carTrigVal"
-            android:layout_alignStart="@+id/carString" />
+            android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/carsTotal"
+            android:id="@+id/trucksTotal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@+id/carTrigVal"

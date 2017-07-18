@@ -53,8 +53,6 @@ public class Metering extends AppCompatActivity implements SensorEventListener {
 
 
         mSensorManager = (SensorManager)this.getSystemService(SENSOR_SERVICE);
-        mSensorManager = (SensorManager)this.getSystemService(SENSOR_SERVICE);
-        storage = new ArrayList<DataSet>();
 
         List<Sensor> list = mSensorManager.getSensorList(Sensor.TYPE_GYROSCOPE);
 
@@ -146,6 +144,8 @@ public class Metering extends AppCompatActivity implements SensorEventListener {
     public void onAccuracyChanged(Sensor sensor, int i) {
 
     }
+
+
 
 
 }
