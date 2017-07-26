@@ -101,7 +101,7 @@ public class Metering extends AppCompatActivity implements SensorEventListener {
         double y_2 = Math.pow((double) values[1], 2);
         double z_2 = Math.pow((double) values[2], 2);
         double eruption = Math.sqrt((x_2 + y_2 + z_2));
-        eruption = eruption * 10;
+        eruption = eruption * 1000;
         eruption = Math.floor(eruption * 1000)/1000;
         output.setText(Double.toString(eruption));
 

@@ -23,7 +23,7 @@
             android:layout_alignBottom="@+id/sensorOutput"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="105dp"
-            android:text="rad/s * 10"
+            android:text="k rad/s "
             android:textSize="24sp" />
 
         <TextView
